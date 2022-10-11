@@ -31,8 +31,7 @@ layout: base.njk
     <h2>Past Projects</h2>
     {% for i in studies -%}
     <figure>
-        <!-- <img src="{{ i.img_path }}" alt="{{ i.title }} image"> -->
-        <img src="https://via.placeholder.com/3840x1759" alt="">
+        <img src="{{ i.img_path }}" alt="{{ i.title }} image">
         <figcaption>
             <h3>{{ i.title }}</h3>
             <p>{{ i.caption }}</p>
