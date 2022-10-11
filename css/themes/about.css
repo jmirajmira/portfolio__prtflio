@@ -1,0 +1,42 @@
+.about h2 {
+    position: relative;
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 4rem;
+}
+
+.about p {
+    font-size: 1rem;
+    max-width: 23rem;
+    line-height: 1.4;
+}
+
+.about h2::before {
+    content: "";
+    background-color: #eee;
+    z-index: -1;
+    width: 90%;
+    max-width: 56.25rem;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 1rem;
+    top: 1.5rem;
+}
+
+@media (width >= 48em) { /* 768px */
+    .about h2 {
+        font-size: 5rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+        max-width: 34rem;
+    }
+}
+
+@media (width >= 75em) { /* 1200px */
+    .about p {
+        font-size: 1.1rem;
+    }
+}

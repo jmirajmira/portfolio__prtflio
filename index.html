@@ -1,0 +1,42 @@
+---
+layout: base.njk
+---
+
+<div class="lead">
+    <h2 class="lead-header">Hi, I'm Michael Boisterous</h2>
+    <p>Senior Staff Product Designer at Lollify, based in Philadelphia</p>
+    <ul class="nav-list">
+        <li><a href="#">Email</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Github</a></li>
+        <li><a href="#">LinkedIn</a></li>
+    </ul>
+</div>
+
+<section class="side-projects">
+    <h2>Side Projects</h2>
+    <div class="side-projects-panel">
+        <div>
+            <h3>Design Market Apparatus</h3>
+            <p>Market and Design System Apparatus, a collection of best utility decisions to help you build extensible and robust design systems wherever they are needed.</p>
+        </div>
+        <div>
+            <h3>Design Goals</h3>
+            <p>Designed and build System Checklist, a utility for understanding changing needs of global consumers and market watchers.</p>
+        </div>
+    </div>
+</section>
+
+<section class="case-studies">
+    <h2>Case Studies</h2>
+    {% for i in studies -%}
+    <figure>
+        <!-- <img src="{{ i.img_path }}" alt="{{ i.title }} image"> -->
+        <img src="https://via.placeholder.com/3840x1759" alt="">
+        <figcaption>
+            <h3>{{ i.title }}</h3>
+            <p>{{ i.caption }}</p>
+        </figcaption>
+    </figure>
+    {% endfor -%}
+</section>

@@ -1,0 +1,17 @@
+[
+	{ 
+		"img_path": "/img/img_01.png", 
+		"title": "Web Application Experience",
+		"caption": "Principal Architect at Changelog.edu, 2019 – 2020"
+	},
+	{ 
+		"img_path": "/img/img_02.png", 
+		"title": "Web Apparatus",
+		"caption": "Lead Designer at Changlog.edu, 2020 – 2022"
+	}, 
+	{ 
+		"img_path": "/img/img_03.png", 
+		"title": "Design Language",
+		"caption": "Lead Designer at Changelog.edu, 2020 - current"
+	} 
+]

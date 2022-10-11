@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="/css/all.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="/">Michael Boisterous</a></h1>
+            <p><a href="/about">About</a></p>
+        </header>
+
+        <main>
+            {{ content | safe }}
+        </main>
+
+        <footer>
+            <p>&copy;2022 Michael Boisterous</p>
+            <ul class="nav-list">
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

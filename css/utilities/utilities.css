@@ -1,0 +1,9 @@
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-list li {
+    margin-right: 1rem;
+    line-height: 1.4;
+}
